@@ -6,7 +6,7 @@ angular.module('invoicing', [])
 // The invoice displayed when the user first uses the app
 .constant('DEFAULT_INVOICE', {
   tax: 0.00,
-  invoice_number: 10,
+  invoice_number: 264,
   customer_info: {
     name: 'Pure Herbs & Spices Trading (PVT)Ltd',
     web_link: 'No.6/1, Thalpitiya South,',
@@ -16,13 +16,13 @@ angular.module('invoicing', [])
   },
   company_info: {
     name: 'Net-Hub Technologies',
-    web_link: 'nethubtech@gmail.com',
-    address1: '123 Yonge Street',
-    address2: 'Toronto, ON, Canada',
-    postal: 'M5S 1B6'
+    web_link: 'nethubtechnologies@gmail.com',
+    address1: 'No.24, 2nd Step,',
+    address2: 'Ariyagama, Sri Lanka.',
+    postal: 'Whatsapp +94 775288341'
   },
   items:[
-    { qty: 1, description: 'Gadget', cost: 1.00 }
+    { qty: 1, description: 'VPS-Unmanaged', cost: 1.00 }
   ]
 })
 
