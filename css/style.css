@@ -143,3 +143,10 @@ div.container{
   position: relative;
   color: #ce0c15;
 }
+
+textarea.form-control {
+  resize: vertical;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+}
