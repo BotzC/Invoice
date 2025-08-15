@@ -19,10 +19,10 @@ angular.module('invoicing', [])
     web_link: 'nethubtechnologies@gmail.com',
     address1: 'No.24, 2nd Step,',
     address2: 'Ariyagama, Sri Lanka.',
-    postal: 'Whatsapp +94 775288341'
+    postal: 'Whatsapp +94775288341'
   },
   items:[
-    { qty: 1, description: 'VPS-Unmanaged', cost: 1.00 }
+    { qty: 1, description: 'VPS-Unmanaged', cost: 50.00 }
   ]
 })
 
